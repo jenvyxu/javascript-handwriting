@@ -1,5 +1,6 @@
 # 深拷贝
 1. json的序列化和反序列化
+2. loadsh的深拷贝api
 
 ```
 var a = {
@@ -10,7 +11,7 @@ var a = {
 
 var a2 = JSON.parse(JSON.stringify(a))
 ```
-缺点：
+JSON的缺点：
 1. 不支持函数
 2. 不支持undefined
 3. 不支持引用
