@@ -30,7 +30,7 @@ class DeepCloner {
             dist[key] = this.clone(source[key])
           }
         }
-        return dist      
+        return dist
       }
     }
     return source
